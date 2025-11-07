@@ -1,0 +1,19 @@
+# En N-Lang, existen dos formas de separar argumentos en las funciones
+# comas: ,
+# strings: ""
+# Ejemplo: super_if
+
+super_if("si" condición {"y" = +) "son al menos" cantidad_de_condiciones "correctas") = CLASS super_if = (VAR condición(cantidad_de_condiciones));
+Raza = "Semielfo (mitad humano)"
+Lugar = "Reino de las almas malditas"
+influencia = 100
+nivel = 10
+vida = 100
+defensa = 20
+
+super_if(si 
+Raza = "Semielfo (mitad humano)" y 
+Lugar = "Reino de las almas malditas" y 
+influencia = 100 y nivel = 10 y vida = 100 y 
+defensa = 20 son al menos 3 correctas)
+VAR bonificación_elfica (1, "Reducción del {super_if * 0.1 + 10)% de enemigos"
